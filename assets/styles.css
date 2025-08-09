@@ -1,0 +1,154 @@
+@import url("../assets/reset.css");
+
+body{
+    background-color: black;/* cor da pagina em geral*/
+}
+
+p{
+    color: white; /* cores dos textos p */
+}
+
+section{
+    margin: 100px auto ; /* 100px margin altura e o auto foi na largura das tegs section*/
+}
+
+h2{
+    font-size: 2rem;
+    color: #33A8DB; /* cor do texto do h2*/
+    font-weight: bold; /* negrito do h2*/
+    letter-spacing: 4px ; /* espaçamento das letras do h2*/
+    text-transform: uppercase; /* colocar texto do h2 em maiusculo */
+    margin-bottom: 24px;/* espaço abaixo do texto do h2*/
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(47, 182, 240, 0.2), rgba(0, 0, 0, .6)), url("../assets/images/banner.png");/*linear-gradiente 1 cor é a de cima 2 cor é a do meio e a 3 éa cor debaixo da div e a url da imagem é para definir o baner de fundo e o background-image é para fazer as alteraçoes na imagem do banner*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; /* tamanho de espaçamento da div ao todo*/
+    padding-top: 60px;/* espaçamento em cima no todo do site da imagem*/
+    border-bottom: 1px solid #33A8DB80;/* borda no final da div 01 */
+
+}
+
+.banner .banner-content{
+    color: white; /* cor de de texto de toda a div*/
+    width: 600px;/*espaçamento do texto*/
+    margin: auto; 
+    text-align: center; /*colocar todo o texto e imagem no centro*/
+}
+
+.banner h1 {
+    font-size: 2.5rem;/* tamanho do texto*/
+    font-weight: 900;
+    text-transform: uppercase;/* texto em maiusculo*/
+    color: transparent; /*colcoar a cor da imagem transparente pra depois umsar outras estilização para mudar a aparencia do texto*/
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* sóessa função coloca todo o espaço do paragrafo em azul */
+    background-clip:text;/* coloca só o texto em azul*/
+    -webkit-background-clip:text;   
+}
+
+.banner p{
+    font-size: 1.25rem; /* tamanho dafonte*/
+    margin: 16px 0 24px; /* margem do paragrafo*/
+}
+
+.banner .logo{
+background-color: rgba(0, 0, 0, .2);/* cor da div da logo*/
+height: 260px; /* tamanho da div da imagem cima e baixo*/
+width: 250px; /* tamanho da div da imagem lado */
+margin: auto; /* deixa a margin no centor automatico*/
+border-radius: 50%; /* borda 50% deixar a for preta colcoada redonda*/
+padding: 16px;
+margin-bottom: 16px;
+}
+
+.banner .logo img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.banner .banner-content button{
+    color: #31A8DD; /*cor do texto dentor do botao*/
+    font-size: 1rem; /* fonte padronizado de acordo com as configurações da pagina*/
+    font-weight: bold; /* negrito no texto do botao*/
+    padding: 16px 32px;/* espaçamento do texto de dentro do botao primeiro altura e segundo largura*/
+    text-transform: uppercase;/* texto em maiusculo*/
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: 10 linear-gradient(#3BA1CD, #1572B7);
+    border-radius: 30px;
+}
+#course-content{
+    width: 800px;
+    text-align: center;
+}
+#course-content .modules-list{
+    margin: 24px 0;
+    
+}
+#course-content .modules-list .module{
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #3ba1cd; /* bordas em cada elemento dos modulos*/
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow:inset -5px 6px 8px rgba(0, 0, 0, .7);
+    
+}
+#course-content .modules-list .module span{
+    color: #33A8Db;
+    
+}
+
+#transform-world{
+    height: 530px;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    background-size: cover;
+    background-image: url("../assets/images/woman-code.png");
+    background-attachment:fixed;
+    padding: 200px;
+}
+#transform-world p {
+    font-weight: 900; /*tamanho da area*/
+    font-size: 2.5rem; /* tamanho baseado na area do font-weught*/
+    text-transform: lowercase;
+    text-shadow: 3px 2px;
+    max-width: 250px;
+
+}
+#professional-challenges{
+    width: 800px;
+    text-align: center;
+   
+}
+#professional-challenges img{ /* configuração da imagem*/
+    margin: 32px 0;
+}
+ footer{
+    padding: 60px 0px;
+    text-align: center;
+    background-image: linear-gradient (rgba(50, 168, 219, .0), rgba(47, 182, 240, 0.2));
+    border-top: 1px solid #33A8DB80;
+}
+footer .dio.logo{
+    width: 300px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
+
+}
+
+
+
+
+
+    
