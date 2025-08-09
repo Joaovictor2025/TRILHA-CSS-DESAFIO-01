@@ -22,7 +22,7 @@ h2{
 }
 
 .banner{
-    background-image: linear-gradient(red, rgba(47, 182, 240, 0.2), red), url("../assets/images/banner.png");/*linear-gradiente 1 cor é a de cima 2 cor é a do meio e a 3 éa cor debaixo da div e a url da imagem é para definir o baner de fundo e o background-image é para fazer as alteraçoes na imagem do banner*/
+    background-image: linear-gradient(#e66465, rgba(47, 182, 240, 0.2), #e66465), url("../assets/images/banner.png");/*linear-gradiente 1 cor é a de cima 2 cor é a do meio e a 3 éa cor debaixo da div e a url da imagem é para definir o baner de fundo e o background-image é para fazer as alteraçoes na imagem do banner*/
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px; /* tamanho de espaçamento da div ao todo*/
@@ -77,7 +77,7 @@ margin-bottom: 16px;
     text-transform: uppercase;/* texto em maiusculo*/
     letter-spacing: 4px;
     background-color: transparent;
-    border-image: 10 linear-gradient(#3BA1CD, #1572B7);
+    border-image: 10 linear-gradient(#3BA1CD, #e66465);
     border-radius: 30px;
 }
 #course-content{
@@ -92,22 +92,22 @@ margin-bottom: 16px;
     color: white;
     width: 530px;
     margin: 0 auto 24px;
-    border: 1px solid #3ba1cd; /* bordas em cada elemento dos modulos*/
-    background-color: #252525;
+    border: 1px solid #e66465; /* bordas em cada elemento dos modulos*/
+    background-color: #e66465;
     padding: 16px;
     border-radius: 100px;
     box-shadow:inset -5px 6px 8px rgba(0, 0, 0, .7);
     
 }
 #course-content .modules-list .module span{
-    color: #33A8Db;
+    color: #e66465;
     
 }
 
 #transform-world{
     height: 530px;
-    border-top: 1px solid #33A8DB80;
-    border-bottom: 1px solid #33A8DB80;
+    border-top: 1px solid #e66465;
+    border-bottom: 1px solid #e66465;
     background-size: cover;
     background-image: url("../assets/images/woman-code.png");
     background-attachment:fixed;
@@ -132,8 +132,8 @@ margin-bottom: 16px;
  footer{
     padding: 60px 0px;
     text-align: center;
-    background-image: linear-gradient (rgba(50, 168, 219, .0), rgba(47, 182, 240, 0.2));
-    border-top: 1px solid red;
+    background-image: linear-gradient (rgba(50, 168, 219, .0),#e66465);
+    border-top: 1px solid #e66465;
 }
 footer .dio.logo{
     width: 300px;
@@ -153,3 +153,4 @@ footer a {
 
 
     
+
