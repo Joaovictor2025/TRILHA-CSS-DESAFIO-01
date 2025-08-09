@@ -14,7 +14,7 @@ section{
 
 h2{
     font-size: 2rem;
-    color: #33A8DB; /* cor do texto do h2*/
+    color: red; /* cor do texto do h2*/
     font-weight: bold; /* negrito do h2*/
     letter-spacing: 4px ; /* espaçamento das letras do h2*/
     text-transform: uppercase; /* colocar texto do h2 em maiusculo */
@@ -22,12 +22,12 @@ h2{
 }
 
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(47, 182, 240, 0.2), rgba(0, 0, 0, .6)), url("../assets/images/banner.png");/*linear-gradiente 1 cor é a de cima 2 cor é a do meio e a 3 éa cor debaixo da div e a url da imagem é para definir o baner de fundo e o background-image é para fazer as alteraçoes na imagem do banner*/
+    background-image: linear-gradient(red, rgba(47, 182, 240, 0.2), red), url("../assets/images/banner.png");/*linear-gradiente 1 cor é a de cima 2 cor é a do meio e a 3 éa cor debaixo da div e a url da imagem é para definir o baner de fundo e o background-image é para fazer as alteraçoes na imagem do banner*/
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px; /* tamanho de espaçamento da div ao todo*/
     padding-top: 60px;/* espaçamento em cima no todo do site da imagem*/
-    border-bottom: 1px solid #33A8DB80;/* borda no final da div 01 */
+    border-bottom: 1px solid red;/* borda no final da div 01 */
 
 }
 
@@ -133,7 +133,7 @@ margin-bottom: 16px;
     padding: 60px 0px;
     text-align: center;
     background-image: linear-gradient (rgba(50, 168, 219, .0), rgba(47, 182, 240, 0.2));
-    border-top: 1px solid #33A8DB80;
+    border-top: 1px solid red;
 }
 footer .dio.logo{
     width: 300px;
@@ -142,10 +142,11 @@ footer .dio.logo{
 
 footer a {
     text-decoration: none;
-    color: #33A8DB;
+    color: red;
     font-weight: bold;
 
 }
+
 
 
 
